@@ -1,0 +1,57 @@
+Prompt 1:
+
+Generate a 5-day weekly timetable for CSE department.  
+Subjects: DSA, DBMS, OS, CN, SE  
+Professors: Vaibhav, Simha, Alice, Bob, Carol  
+Days: Monday to Friday  
+Slots: 9:00–10:00, 10:00–11:00, 11:00–12:00, 1:00–2:00, 2:00–3:00, 3:00–4:00  
+Breaks: 12:00–1:00  
+Rooms: R1, R2, R3  
+Ensure no professor teaches two classes in the same slot and each subject gets at least three sessions per week.
+
+
+Prompt 2:
+
+Create a full-day timetable from 9:00 AM to 5:00 PM with 2 breaks (one from 10:50–11:10 and another from 1:00–2:00).  
+Subjects: AI, ML, DSA, DBMS, CN, OS, PE (Physical Education), Ethics  
+Professors: Krishna, Rama, Lakshmi, Saraswati, Shiva, Parvati, Ganesha, Vishnu  
+Rooms: A1, A2, A3, A4  
+Days: Monday to Friday  
+Constraints:  
+- No professor handles back-to-back sessions.  
+- AI and ML must not be scheduled in the last 2 slots.  
+- PE should always be in the last slot of the day.  
+- Each subject must appear at least twice in the week.
+
+
+
+Propmt 3:
+
+Generate a timetable for both CSE and AIML branches combined.  
+Subjects: DSA, DBMS, AI, ML, NLP, CN, OS, SE  
+Professors: Vaibhav, Simha, Rama, Krishna, Durga, Ganesha  
+Rooms: R1, R2, R3, R4  
+Days: Monday to Friday  
+Slots: 9:00–9:50, 10:00–10:50, 11:00–11:50, 12:00–12:50, 2:00–2:50, 3:00–3:50, 4:00–4:50  
+Breaks: 12:50–2:00  
+Constraints:  
+- A professor cannot teach in two rooms simultaneously.  
+- Same subject cannot appear more than twice per day.  
+- First and last slots of each day must be different subjects.
+
+
+Prompt 4:
+
+Create a master timetable for 3 departments: CSE, AIML, and ISE.  
+Each department has 5 subjects.  
+Include labs for DSA, DBMS, and AI (2-hour slots).  
+Include weekly seminar sessions handled by random professors.  
+Days: Monday to Saturday  
+Slots: 9:00–5:00  
+Breaks: 11:00–11:20 and 1:00–2:00  
+Rooms: R1–R6  
+Ensure:  
+- Labs occupy consecutive 2 slots.  
+- Each subject appears at least twice weekly.  
+- No overlapping for professors.  
+- Each department gets unique schedules.
